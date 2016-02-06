@@ -16,7 +16,7 @@ Fayyaz Mukarram ([mfayyaz@berkeley.edu](mailto:mfayyaz@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Calorie Converting App] (https://www.youtube.com/watch?v=6rScGgvk0d8&feature=youtu.be)
 
 ## Screenshots
 
