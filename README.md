@@ -11,7 +11,7 @@ The app works as such:
 
 ## Authors
 
-Fayyaz Mukarram [mfayyaz@berkeley.edu](mailto:mfayyaz@berkeley.edu))
+Fayyaz Mukarram ([mfayyaz@berkeley.edu](mailto:mfayyaz@berkeley.edu))
 
 ## Demo Video
 
