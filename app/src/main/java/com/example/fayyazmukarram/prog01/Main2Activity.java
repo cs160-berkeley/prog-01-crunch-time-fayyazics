@@ -19,8 +19,8 @@ public class Main2Activity extends AppCompatActivity {
 
         if (MainActivity.events.get(MainActivity.activity) == "pushups") {
             new AlertDialog.Builder(Main2Activity.this)
-                    .setTitle(" " + MainActivity.reps + " reps of " + MainActivity.events.get(MainActivity.activity) + ":")
-                    .setMessage(MainActivity.calories + " calories burned")
+                    .setTitle(" " + Math.round(MainActivity.reps) + " reps of " + MainActivity.events.get(MainActivity.activity) + ":")
+                    .setMessage(Math.round(MainActivity.calories) + " calories burned")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                         public void onClick(DialogInterface dialog, int which) {
@@ -32,8 +32,8 @@ public class Main2Activity extends AppCompatActivity {
 
         } else if (MainActivity.events.get(MainActivity.activity) == "situps") {
             new AlertDialog.Builder(Main2Activity.this)
-                    .setTitle(" " + MainActivity.reps + " reps of " + MainActivity.events.get(MainActivity.activity) + ":")
-                    .setMessage(MainActivity.calories + " calories burned")
+                    .setTitle(" " + Math.round(MainActivity.reps) + " reps of " + MainActivity.events.get(MainActivity.activity) + ":")
+                    .setMessage(Math.round(MainActivity.calories) + " calories burned")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                         public void onClick(DialogInterface dialog, int which) {
@@ -45,8 +45,8 @@ public class Main2Activity extends AppCompatActivity {
 
         } else if (MainActivity.events.get(MainActivity.activity) == "jumping jacks") {
             new AlertDialog.Builder(Main2Activity.this)
-                    .setTitle(" " + MainActivity.reps + " minutes of " + MainActivity.events.get(MainActivity.activity) + ":")
-                    .setMessage(MainActivity.calories + " calories burned")
+                    .setTitle(" " + Math.round(MainActivity.reps) + " minutes of " + MainActivity.events.get(MainActivity.activity) + ":")
+                    .setMessage(Math.round(MainActivity.calories) + " calories burned")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                         public void onClick(DialogInterface dialog, int which) {
@@ -58,8 +58,8 @@ public class Main2Activity extends AppCompatActivity {
 
         } else if (MainActivity.events.get(MainActivity.activity) == "jogging") {
             new AlertDialog.Builder(Main2Activity.this)
-                    .setTitle(" " + MainActivity.reps + " minutes of " + MainActivity.events.get(MainActivity.activity) + ":")
-                    .setMessage(MainActivity.calories + " calories burned")
+                    .setTitle(" " + Math.round(MainActivity.reps) + " minutes of " + MainActivity.events.get(MainActivity.activity) + ":")
+                    .setMessage(Math.round(MainActivity.calories) + " calories burned")
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                         public void onClick(DialogInterface dialog, int which) {
