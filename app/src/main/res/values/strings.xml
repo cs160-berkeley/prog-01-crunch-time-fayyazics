@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Prog01</string>
+    <string name="action_settings">Settings</string>
+    <string name="Exercises" />
+    <string name="enter">Enter</string>
+    <string-array name="Exercises">
+        <item>pushups</item>
+        <item>situps</item>
+        <item>jumping jacks</item>
+        <item>jogging</item>
+    </string-array>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
